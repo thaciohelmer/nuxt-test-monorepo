@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "author": "thaciohelmer",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "nuxt": "^3.10.2"
+  }
+}
